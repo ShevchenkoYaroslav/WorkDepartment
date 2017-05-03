@@ -14,7 +14,6 @@ public class Workers {
     private String mailOfWorker;
     private int salaryOfWorker;
     private int ageOfWorker;
-    private long idOfWorker;
     private Date date;
 
     public String getFirstNameOfWorker() {
@@ -71,14 +70,6 @@ public class Workers {
 
     public void setAgeOfWorker(int ageOfWorker) {
         this.ageOfWorker = ageOfWorker;
-    }
-
-    public long getIdOfWorker() {
-        return idOfWorker;
-    }
-
-    public void setIdOfWorker(long idOfWorker) {
-        this.idOfWorker = idOfWorker;
     }
 
     public Date getDate() {
