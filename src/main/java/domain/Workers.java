@@ -16,6 +16,21 @@ public class Workers {
     private int ageOfWorker;
     private Date date;
 
+    public Workers() {
+    }
+
+    public Workers(String firstNameOfWorker, String lastNameOfWorker, String positionOfWorker,
+                   String sexOfWorker, String mailOfWorker, int salaryOfWorker, int ageOfWorker, Date date) {
+        this.firstNameOfWorker = firstNameOfWorker;
+        this.lastNameOfWorker = lastNameOfWorker;
+        this.positionOfWorker = positionOfWorker;
+        this.sexOfWorker = sexOfWorker;
+        this.mailOfWorker = mailOfWorker;
+        this.salaryOfWorker = salaryOfWorker;
+        this.ageOfWorker = ageOfWorker;
+        this.date = date;
+    }
+
     public String getFirstNameOfWorker() {
         return firstNameOfWorker;
     }
