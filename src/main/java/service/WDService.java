@@ -7,7 +7,7 @@ import domain.Workers;
  */
 public interface WDService {
 
-    //TODO meth
+    //TODO implement methods
 
     Workers addWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker);
     Workers editWorker();
