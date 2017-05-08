@@ -10,7 +10,7 @@ public interface WDService {
     //TODO implement methods
 
     Workers addWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker);
-    Workers editWorker();
+    Workers editWorker(Workers firstNameOfWorker);
     Workers delWorker();
     Workers listOfWorkers();
 
