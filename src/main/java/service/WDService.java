@@ -12,6 +12,6 @@ public interface WDService {
     Workers addWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker);
     Workers editWorker(Workers firstNameOfWorker);
     Workers delWorker();
-    Workers listOfWorkers();
+    Workers listOfWorkers(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker);
 
 }
