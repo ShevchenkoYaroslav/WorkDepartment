@@ -6,8 +6,6 @@ package domain;
 public class Departments {
 
     private String nameOfDepartment;
-    private String siteOfDepartment;
-    private String phoneOfDepartment;
     private int numOfWorkers;
     private long idOfDepartment;
 
@@ -17,22 +15,6 @@ public class Departments {
 
     public void setNameOfDepartment(String nameOfDepartment) {
         this.nameOfDepartment = nameOfDepartment;
-    }
-
-    public String getSiteOfDepartment() {
-        return siteOfDepartment;
-    }
-
-    public void setSiteOfDepartment(String siteOfDepartment) {
-        this.siteOfDepartment = siteOfDepartment;
-    }
-
-    public String getPhoneOfDepartment() {
-        return phoneOfDepartment;
-    }
-
-    public void setPhoneOfDepartment(String phoneOfDepartment) {
-        this.phoneOfDepartment = phoneOfDepartment;
     }
 
     public int getNumOfWorkers() {

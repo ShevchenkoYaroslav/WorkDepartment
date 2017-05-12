@@ -9,24 +9,17 @@ public class Workers {
 
     private String firstNameOfWorker;
     private String lastNameOfWorker;
-    private String positionOfWorker;
-    private String sexOfWorker;
     private String mailOfWorker;
-    private int salaryOfWorker;
     private int ageOfWorker;
     private Date date;
 
     public Workers() {
     }
 
-    public Workers(String firstNameOfWorker, String lastNameOfWorker, String positionOfWorker,
-                   String sexOfWorker, String mailOfWorker, int salaryOfWorker, int ageOfWorker, Date date) {
+    public Workers(String firstNameOfWorker, String lastNameOfWorker, String mailOfWorker, int ageOfWorker, Date date) {
         this.firstNameOfWorker = firstNameOfWorker;
         this.lastNameOfWorker = lastNameOfWorker;
-        this.positionOfWorker = positionOfWorker;
-        this.sexOfWorker = sexOfWorker;
         this.mailOfWorker = mailOfWorker;
-        this.salaryOfWorker = salaryOfWorker;
         this.ageOfWorker = ageOfWorker;
         this.date = date;
     }
@@ -47,36 +40,12 @@ public class Workers {
         this.lastNameOfWorker = lastNameOfWorker;
     }
 
-    public String getPositionOfWorker() {
-        return positionOfWorker;
-    }
-
-    public void setPositionOfWorker(String positionOfWorker) {
-        this.positionOfWorker = positionOfWorker;
-    }
-
-    public String getSexOfWorker() {
-        return sexOfWorker;
-    }
-
-    public void setSexOfWorker(String sexOfWorker) {
-        this.sexOfWorker = sexOfWorker;
-    }
-
     public String getMailOfWorker() {
         return mailOfWorker;
     }
 
     public void setMailOfWorker(String mailOfWorker) {
         this.mailOfWorker = mailOfWorker;
-    }
-
-    public int getSalaryOfWorker() {
-        return salaryOfWorker;
-    }
-
-    public void setSalaryOfWorker(int salaryOfWorker) {
-        this.salaryOfWorker = salaryOfWorker;
     }
 
     public int getAgeOfWorker() {

@@ -22,19 +22,23 @@ public class WDServiceImpl implements WDService{
     }
 
 
-    public Workers addWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker) {
+    public Workers addWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker, Workers ageOfWorker, Workers date) {
         return null;
     }
 
-    public Workers editWorker() {
+    public Workers editWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker, Workers ageOfWorker, Workers date) {
         return null;
     }
 
-    public Workers delWorker() {
+    public Workers delWorker(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker, Workers ageOfWorker, Workers date) {
         return null;
     }
 
-    public Workers listOfWorkers() {
+    public Workers listOfWorkers(Workers firstNameOfWorker, Workers lastNameOfWorker, Workers mailOfWorker, Workers ageOfWorker, Workers date) {
         return null;
+    }
+
+    public void closeDBConnection() {
+
     }
 }

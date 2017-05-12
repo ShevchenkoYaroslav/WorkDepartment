@@ -1,3 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 WorkDepartment.iml
+out
+target
+.gitignore
