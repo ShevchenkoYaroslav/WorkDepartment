@@ -9,6 +9,15 @@ public class Departments {
     private int numOfWorkers;
     private long idOfDepartment;
 
+    public Departments() {
+    }
+
+    public Departments(String nameOfDepartment, int numOfWorkers, long idOfDepartment) {
+        this.nameOfDepartment = nameOfDepartment;
+        this.numOfWorkers = numOfWorkers;
+        this.idOfDepartment = idOfDepartment;
+    }
+
     public String getNameOfDepartment() {
         return nameOfDepartment;
     }
