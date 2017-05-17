@@ -8,35 +8,41 @@
     <meta charset="utf-8">
 </head>
 <body>
-<span><table class="table">
-  <thead>
-    <tr>
-      <th>№ п/п</th>
-      <th>Имя</th>
-      <th>Фамилия</th>
-      <th>E-mail</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Иван</td>
-      <td>Чмель</td>
-      <td>ivan@mail.ru</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Петр</td>
-      <td>Щербаков</td>
-      <td>petr@mail.ru</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Юрий</td>
-      <td>Голов</td>
-      <td>yuri@mail.ru</td>
-    </tr>
-  </tbody>
-</table></span>
+
+<form action="<c:url value='/MainPage' />" method="post">
+    <div>
+            <span>firstNameOfWorker:
+                <input type="text" name="firstNameOfWorker" placeholder="Введите имя работника"/>
+            </span>
+    </div>
+
+    <div>
+            <span>lastNameOfWorker:
+                <input type="text" name="lastNameOfWorker" placeholder="Введите фамилию работника"/>
+            </span>
+    </div>
+
+    <div>
+            <span>mailOfWorker:
+                <input type="text" name="mailOfWorker" placeholder="Введите адресс эл. почты работника"/>
+            </span>
+    </div>
+
+    <div>
+            <span>ageOfWorker:
+                <input type="text" name="ageOfWorker" placeholder="Введите возраст работника"/>
+            </span>
+    </div>
+
+    <div>
+            <span>date:
+                <input type="text" name="date" placeholder="Введите дату начала работы"/>
+            </span>
+    </div>
+
+    <input type="submit" value="Добавить"/>
+
+</form>
+
 </body>
 </html>
