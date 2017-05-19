@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by Valsorya94 on 29.04.2017.
  */
-public class Workers {
+public class Worker {
 
     private String firstNameOfWorker;
     private String lastNameOfWorker;
@@ -13,10 +13,10 @@ public class Workers {
     private int ageOfWorker;
     private Date date;
 
-    public Workers() {
+    public Worker() {
     }
 
-    public Workers(String firstNameOfWorker, String lastNameOfWorker, String mailOfWorker, int ageOfWorker, Date date) {
+    public Worker(String firstNameOfWorker, String lastNameOfWorker, String mailOfWorker, int ageOfWorker, Date date) {
         this.firstNameOfWorker = firstNameOfWorker;
         this.lastNameOfWorker = lastNameOfWorker;
         this.mailOfWorker = mailOfWorker;

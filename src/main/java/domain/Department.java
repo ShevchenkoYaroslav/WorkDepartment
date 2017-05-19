@@ -3,16 +3,16 @@ package domain;
 /**
  * Created by Valsorya94 on 29.04.2017.
  */
-public class Departments {
+public class Department {
 
     private String nameOfDepartment;
     private int numOfWorkers;
     private long idOfDepartment;
 
-    public Departments() {
+    public Department() {
     }
 
-    public Departments(String nameOfDepartment, int numOfWorkers, long idOfDepartment) {
+    public Department(String nameOfDepartment, int numOfWorkers, long idOfDepartment) {
         this.nameOfDepartment = nameOfDepartment;
         this.numOfWorkers = numOfWorkers;
         this.idOfDepartment = idOfDepartment;

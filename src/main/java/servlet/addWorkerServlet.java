@@ -42,5 +42,4 @@ public class addWorkerServlet extends HttpServlet {
 
         req.getRequestDispatcher("MainPage.jsp").forward(req, resp);
     }
-
 }
