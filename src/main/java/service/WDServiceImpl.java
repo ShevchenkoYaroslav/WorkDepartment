@@ -39,6 +39,8 @@ public class WDServiceImpl implements WDService {
 
         executeSQL(sql);
 
+
+        //TODO need fix
         try {
             Statement statement = connection.createStatement();
             ResultSet rs = statement.executeQuery(sql);
