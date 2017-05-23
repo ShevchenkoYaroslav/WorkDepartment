@@ -29,10 +29,10 @@ public class delWorkerServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String firstNameOfWorker = req.getParameter("firstnameofworker");
-        String lastNameOfWorker =  req.getParameter("lastnameofworker");
-        String mailOfWorker =  req.getParameter("mailofworker");
-        String ageOfWorker =  req.getParameter("ageofworker");
+        String firstNameOfWorker = req.getParameter("first_name_of_worker");
+        String lastNameOfWorker =  req.getParameter("last_name_of_worker");
+        String mailOfWorker =  req.getParameter("mail_of_worker");
+        String ageOfWorker =  req.getParameter("age_of_worker");
         String date =  req.getParameter("date");
 
         if (firstNameOfWorker != null && lastNameOfWorker != null && mailOfWorker != null && ageOfWorker != null
