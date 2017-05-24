@@ -40,7 +40,7 @@
             </span>
     </div>
 
-    <input type="submit" value="Добавить"/>
+    <input type="submit" value="Добавить рабочего"/>
 
 </form>
 
