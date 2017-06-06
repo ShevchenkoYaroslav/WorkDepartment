@@ -36,11 +36,11 @@
 
     <div>
             <span>date:
-                <input type="text" name="date" placeholder="Введите дату начала работы"/>
+                <input type="text" name="date" placeholder="Введите дату начала работы выбранного работника"/>
             </span>
     </div>
 
-    <input type="submit" value="Добавить рабочего"/>
+    <input type="submit" value="Добавить рабочего в департамент"/>
 
 </form>
 
