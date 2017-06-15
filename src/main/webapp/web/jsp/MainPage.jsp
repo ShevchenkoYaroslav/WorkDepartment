@@ -68,7 +68,7 @@
         <br>
     </fieldset>
     <fieldset>
-        <p>Введите число с картинки</p>
+        <p>Введите значение</p>
         <img src="https://c22blog.files.wordpress.com/2010/10/input-black.gif">
         <input type='text' name='capcha' placeholder='число' required><span></span>
     </fieldset>
