@@ -47,7 +47,7 @@
 <form action="#" id='send' method='POST'>
     <fieldset>
         <label>Имя</label>
-        <input type='text' name='name' placeholder='Имя' required><span></span>
+        <input type='text' name='name' placeholder='Имя пользователя' required><span></span>
         <br>
         <label>Фамилия</label>
         <input type='text' name='surname' placeholder='Фамилия' required><span></span>
