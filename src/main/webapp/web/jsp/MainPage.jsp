@@ -58,7 +58,7 @@
     </fieldset>
     <fieldset>
         <label>Эл. почта</label>
-        <input type='email' name='email' placeholder='Эл. почта' required><span></span>
+        <input type='email' name='email' placeholder='Эл. почта рабочего' required><span></span>
         <br>
         <label>Пароль</label>
         <input type='password' name='pass' placeholder='Пароль' required><span></span>
