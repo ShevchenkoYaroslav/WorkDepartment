@@ -50,10 +50,10 @@
         <input type='text' name='name' placeholder='Имя пользователя' required><span></span>
         <br>
         <label>Фамилия</label>
-        <input type='text' name='surname' placeholder='Фамилия' required><span></span>
+        <input type='text' name='surname' placeholder='Фамилия пользователя' required><span></span>
         <br>
         <label>Город</label>
-        <input type='text' name='city' placeholder='Город' required><span></span>
+        <input type='text' name='city' placeholder='Город пользователя' required><span></span>
         <br>
     </fieldset>
     <fieldset>
